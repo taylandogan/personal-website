@@ -2,10 +2,14 @@
   <Tutorial />
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
 
-export default Vue.extend({
+import Vue from 'vue'
+import Vuesax from 'vuesax'
+
+Vue.use(Vuesax)
+
+export default {
   name: 'IndexPage',
-})
+}
 </script>

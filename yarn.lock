@@ -8465,10 +8465,10 @@ vue@^2.6.12, vue@^2.6.14, vue@^2.6.9:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
 
-vuesax@3.8:
-  version "3.8.77"
-  resolved "https://registry.yarnpkg.com/vuesax/-/vuesax-3.8.77.tgz#f57784aaf622e1fba5633092f31cfaec8fe4ed31"
-  integrity sha512-b0IONDC83VuB6ap6/zPHgSJsB1XlR2SuRRCIUs9yxt6piG1fs+z4FMv+SP2xTYeDzhjueyJjgaBi+sysIWKyZA==
+vuesax@3.12:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/vuesax/-/vuesax-3.12.2.tgz#4cc6b8fdfaf6fff45432c7b4b5c5be5080a3c21a"
+  integrity sha512-fdzcTPsrVklhWXtC8o07n9+SCmdQ8rxD9cZxNUx8KnbSH/Ss5azIHLLwMoNQuwT6kBFUcRzxVTfDh8jHzoSXaw==
   dependencies:
     chalk "^2.4.2"
     vue "^2.6.9"

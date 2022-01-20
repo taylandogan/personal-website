@@ -11,8 +11,8 @@ import Vue from 'vue'
 import Vuesax from 'vuesax'
 import 'vuesax/dist/vuesax.css'
 
-import CustomNavbar from '/components/CustomNavbar';
-import CustomHeader from '/components/CustomHeader';
+import CustomNavbar from '../components/CustomNavbar';
+import CustomHeader from '../components/CustomHeader';
 
 Vue.use(Vuesax)
 
@@ -29,6 +29,6 @@ export default {
 @font-face {
   font-family: 'Lato';
   src: local('Lato'),
-    url('~assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
+    url('~/assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
 }
 </style>

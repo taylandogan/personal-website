@@ -4,6 +4,9 @@ export default {
   router: {
     base: '/taylandogan.github.io/'
   },
+  static: {
+    prefix: false
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

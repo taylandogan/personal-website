@@ -15,7 +15,7 @@
       </div>
 
       <div class="profile-img">
-        <img src="../../files/pp.jpeg" class="img-responsive" width="150px" />
+        <img src="~/assets/images/pp.jpeg" class="img-responsive" width="150px" />
       </div>
     </div>
   </div>

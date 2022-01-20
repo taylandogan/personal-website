@@ -29,6 +29,6 @@ export default {
 @font-face {
   font-family: 'Lato';
   src: local('Lato'),
-    url(~@/static/fonts/Lato/Lato-Regular.ttf) format('truetype');
+    url('~assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
 }
 </style>

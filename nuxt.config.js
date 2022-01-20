@@ -1,12 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  router: {
-    base:
-      process.env.NODE_ENV === 'development'
-        ? process.env.BASE_URL
-        : '/taylandogan.github.io/',
-  },
   static: {
     prefix: false,
   },

@@ -11,7 +11,7 @@
         <span>|</span>
         <a href="#" style="margin: 0px 10px 0px 10px">blog</a>
         <span>|</span>
-        <a href="/taylan_resume.pdf" style="margin-left: 10px" target="_blank">resume</a>
+        <a href="/taylan_cv.pdf" style="margin-left: 10px" target="_blank">resume</a>
       </div>
     </div>
   </nav>

@@ -71,6 +71,7 @@ export default {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-right: 10%;
 }
 
 img {

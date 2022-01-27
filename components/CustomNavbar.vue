@@ -7,7 +7,9 @@
       </a>
 
       <div class="links">
-        <a href="#" style="margin-right: 10px">blog (soon)</a>
+        <a href="#" style="margin: 0px 10px 0px 10px">projects</a>
+        <span>|</span>
+        <a href="#" style="margin: 0px 10px 0px 10px">blog</a>
         <span>|</span>
         <a href="/taylan_resume.pdf" style="margin-left: 10px" target="_blank">resume</a>
       </div>
@@ -22,6 +24,12 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'),
+    url('~/assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
 nav {
   margin-top: 50px;
   margin-bottom: 20px;

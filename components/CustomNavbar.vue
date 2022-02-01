@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="container">
-      <a class="logo">
+      <a class="logo" href="/">
         taylan
         <span class="lite">dogan</span>
       </a>
@@ -9,7 +9,7 @@
       <div class="links">
         <a href="#" style="margin: 0px 10px 0px 10px">projects</a>
         <span>|</span>
-        <a href="#" style="margin: 0px 10px 0px 10px">blog</a>
+        <a href="/blogs/" style="margin: 0px 10px 0px 10px">blog</a>
         <span>|</span>
         <a href="/taylan_cv.pdf" style="margin-left: 10px" target="_blank">resume</a>
       </div>
@@ -82,5 +82,9 @@ nav .container .links > a:last-child {
 
 .lite {
   opacity: 0.3;
+}
+
+a {
+  text-decoration: none;
 }
 </style>

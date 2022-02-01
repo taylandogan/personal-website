@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Music
-tags: personal
+tags: ['personal']
 createdAt: '2017-07-07T00:00:00.000Z'
 updatedAt: '2017-07-07T00:00:00.000Z'
 ---

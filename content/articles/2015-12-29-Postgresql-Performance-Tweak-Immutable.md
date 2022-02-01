@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Postgresql Performance Tweak - Immutable
-tags: programming postgresql
+tags: ['programming', 'postgresql']
 createdAt: '2015-12-29T00:00:00.000Z'
 updatedAt: '2015-12-29T00:00:00.000Z'
 ---

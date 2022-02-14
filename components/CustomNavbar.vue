@@ -7,7 +7,7 @@
       </a>
 
       <div class="links">
-        <a href="#" style="margin: 0px 10px 0px 10px">projects</a>
+        <a href="/projects/" style="margin: 0px 10px 0px 10px">projects</a>
         <span>|</span>
         <a href="/blogs/" style="margin: 0px 10px 0px 10px">blog</a>
         <span>|</span>

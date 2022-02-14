@@ -2,16 +2,16 @@
   <div class="container">
     <div>
       <CustomNavbar></CustomNavbar>
-      <article>
+      <project>
         <br />
         <br />
-        <h1>{{ article.title }}</h1>
+        <h1>{{ project.title }}</h1>
         <hr />
-        <nuxt-content :document="article" />
+        <nuxt-content :document="project" />
         <br />
         <hr />
-        <p class="date">{{ formatDate(article.updatedAt) }}</p>
-      </article>
+        <p class="date">{{ formatDate(project.updatedAt) }}</p>
+      </project>
     </div>
   </div>
 </template>
@@ -19,8 +19,8 @@
 <script>
 export default {
   async asyncData({$content, params}) {
-    const article = await $content('articles', params.slug).fetch();
-    return { article }
+    const project = await $content('projects', params.slug).fetch();
+    return { project }
   },
 
   methods: {

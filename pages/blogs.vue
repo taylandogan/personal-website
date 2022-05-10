@@ -3,9 +3,9 @@
     <CustomNavbar></CustomNavbar>
     <div class="container">
       <br>
-      <hr>
       <br>
       <ul class="grid grid-cols-3 gap-8 mt-8">
+        <hr/>
         <ArticlePreview v-for="article in articles" :key="article.slug" :article="article"></ArticlePreview>
       </ul>
     </div>
@@ -34,4 +34,9 @@ export default {
 ul {
     list-style-type: none;
 }
+
+li {
+  margin: 30px 0px 30px 0px;
+}
+
 </style>

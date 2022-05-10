@@ -1,12 +1,14 @@
 <template>
-  <li>
-    <a :href="`/blog/${article.slug}`">
-      {{ article.title }}
-    </a>
-    <p>{{ article.description }}</p>
-    <p class="tag"> {{ formatDate(article.updatedAt) }} &ensp;/&ensp; {{ article.tags }} </p>
-    <hr>
-  </li>
+  <div>
+    <li>
+      <a :href="`/blog/${article.slug}`">
+        {{ article.title }}
+      </a>
+      <p>{{ article.description }}</p>
+      <p class="tag"> {{ formatDate(article.updatedAt) }} &ensp;/&ensp; {{ article.tags }} </p>
+    </li>
+    <hr/>
+  </div>
 </template>
 
 <script>

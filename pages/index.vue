@@ -8,21 +8,17 @@
 <script>
 
 import Vue from 'vue'
-import Vuesax from 'vuesax'
-import 'vuesax/dist/vuesax.css'
-
 import CustomNavbar from '../components/CustomNavbar';
 import CustomHeader from '../components/CustomHeader';
 
-Vue.use(Vuesax)
 
-export default {
+export default Vue.extend({
   name: 'IndexPage',
   components: {
     CustomNavbar,
     CustomHeader
   },
-};
+})
 </script>
 
 <style>

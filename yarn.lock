@@ -5947,10 +5947,10 @@ markdown-table@^2.0.0:
   dependencies:
     repeat-string "^1.0.0"
 
-material-icons@^1.10.6:
-  version "1.10.6"
-  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-1.10.6.tgz#616bf924298631e8b7761fad4d5802a8cd839251"
-  integrity sha512-mVsXw91OON3J3uIVh9taIF1ZyDbcikRNCWv3KzsaJAGZTJbq0w1wdC8weCmyD3JDfAkxqK4WgVJITWPmVKJeDA==
+material-icons@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-1.11.0.tgz#d29f20b25cbd01ac5acc0d7ccbdb40c279e2146f"
+  integrity sha512-t2PNjdF36nFzt82domIwhBm3JCfuEo2EMTiJzb5K1cUR3Sg1aEtcZrkecLHtB26eohtgqvndewL8Zy4cu9DIfg==
 
 md5.js@^1.3.4:
   version "1.3.5"

@@ -85,10 +85,12 @@ export default {
     color: #1f9102;
     font-weight: bold;
     cursor: pointer;
+    font-family: 'lato';
 }
 
 .project-description {
     color: #000000;
+    font-family: 'lato';
 }
 
 </style>

@@ -6,6 +6,8 @@ updates:
     schedule:
       interval: daily
       time: '00:00'
+    ignore:
+      - dependency-name: "*"
     open-pull-requests-limit: 10
     reviewers:
       - taylandogan
